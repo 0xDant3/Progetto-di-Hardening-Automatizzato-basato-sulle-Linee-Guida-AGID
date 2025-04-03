@@ -2,7 +2,7 @@
 
 # Hardening Automatizzato AGID
 
-![AGID Logo]([https://example.com/agid-logo.png](https://www.parcodisegesta.com/.imaging/mte/agid-theme/facebook/dam/home/aree-tematiche/servizi-ai-cittadini/AGID/Logo-Agenzia-per-l-Italia-Digitale.jpg0/jcr:content/Logo%20Agenzia%20per%20l'Italia%20Digitale.jpg)) *(sostituisci con URL reale)*
+![AGID Logo](https://github.com/0xDant3/Progetto-di-Hardening-Automatizzato-basato-sulle-Linee-Guida-AGID/blob/main/Logo%20Agenzia%20per%20l'Italia%20Digitale.jpg)) 
 
 **Script di hardening sistemistico conforme alle Linee Guida AGID per la sicurezza dei sistemi informatici**
 
