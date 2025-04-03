@@ -2,7 +2,7 @@
 
 # Hardening Automatizzato AGID
 
-![AGID Logo](https://github.com/0xDant3/Progetto-di-Hardening-Automatizzato-basato-sulle-Linee-Guida-AGID/blob/main/Logo%20Agenzia%20per%20l'Italia%20Digitale.jpg)) 
+<img src="https://github.com/0xDant3/Progetto-di-Hardening-Automatizzato-basato-sulle-Linee-Guida-AGID/blob/main/Logo%20Agenzia%20per%20l'Italia%20Digitale.jpg" width="300" height="200">
 
 **Script di hardening sistemistico conforme alle Linee Guida AGID per la sicurezza dei sistemi informatici**
 
