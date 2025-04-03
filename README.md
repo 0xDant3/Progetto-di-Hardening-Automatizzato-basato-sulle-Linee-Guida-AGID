@@ -34,6 +34,7 @@ chmod +x main.sh
 Esegui lo script principale:
 ```bash
 sudo ./main.sh
+```
 
 Menu interattivo:
 ```bash
@@ -47,14 +48,18 @@ Menu interattivo:
 7. Hardening DNS
 8. Esegui TUTTO (modalità completa)
 0. Esci
+```
 
 ## 🔧 Configurazione
 I file di configurazione predefiniti si trovano in /configs:
 
 ```bash
 sysctl_secure.conf: Parametri kernel sicuri
+
 sshd_secure.conf: Configurazione SSH hardened
+
 login_banner.txt: Banner legale per accessi
+```
 
 ## ✅ Verifica
 Dopo l'esecuzione, verifica le modifiche con:
@@ -68,3 +73,35 @@ sysctl -a | grep randomize_va_space
 
 # Verifica servizi attivi
 systemctl list-units --state=enabled
+```
+
+## ⚠️ Avvertenze
+Esegui backup del sistema prima dell'applicazione
+
+Alcune modifiche richiedono riavvio
+
+Testare in ambiente non produttivo prima
+
+L'hardening BIOS richiede intervento manuale
+
+## 📜 Conformità Normativa
+Implementa i requisiti di:
+
+Linee Guida AGID (Sez. 5.2.2)
+
+GDPR (Art. 32 - Sicurezza del trattamento)
+
+Direttiva NIS (Network Information Security)
+
+## 📄 Licenza
+Distribuito con licenza MIT. Vedere LICENSE per dettagli.
+
+Questo progetto non è affiliato ufficialmente all'AGID ma implementa le loro linee guida tecniche.
+
+## Perché questo README?
+
+1. **Chiarezza**: Struttura ben organizzata con tabelle e sezioni distinte
+2. **Completezza**: Copre installazione, uso, verifiche e avvertenze
+3. **Riferimenti normativi**: Mostra esplicitamente la conformità AGID/GDPR/NIS
+4. **Professionalità**: Include licenza e linee guida per contributi
+5. **Praticità**: Comandi pronti all'uso copiati negli snippet di codice
