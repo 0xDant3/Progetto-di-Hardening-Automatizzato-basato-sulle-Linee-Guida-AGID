@@ -2,7 +2,7 @@
 
 # Hardening Automatizzato AGID
 
-![AGID Logo](https://example.com/agid-logo.png) *(sostituisci con URL reale)*
+![AGID Logo]([https://example.com/agid-logo.png](https://www.parcodisegesta.com/.imaging/mte/agid-theme/facebook/dam/home/aree-tematiche/servizi-ai-cittadini/AGID/Logo-Agenzia-per-l-Italia-Digitale.jpg0/jcr:content/Logo%20Agenzia%20per%20l'Italia%20Digitale.jpg)) *(sostituisci con URL reale)*
 
 **Script di hardening sistemistico conforme alle Linee Guida AGID per la sicurezza dei sistemi informatici**
 
@@ -29,6 +29,7 @@ Set di script modulari per l'implementazione automatica delle misure di hardenin
 git clone https://github.com/tuorepo/hardening-agid.git
 cd hardening-agid
 chmod +x main.sh
+```
 
 ## 🖥️ Utilizzo
 Esegui lo script principale:
