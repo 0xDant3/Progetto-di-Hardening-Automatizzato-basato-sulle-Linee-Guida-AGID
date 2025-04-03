@@ -29,3 +29,42 @@ Set di script modulari per l'implementazione automatica delle misure di hardenin
 git clone https://github.com/tuorepo/hardening-agid.git
 cd hardening-agid
 chmod +x main.sh
+
+## 🖥️ Utilizzo
+Esegui lo script principale:
+```bash
+sudo ./main.sh
+
+Menu interattivo:
+```bash
+===== Menu Hardening AGID =====
+1. Hardening BIOS e Avvio
+2. Hardening Autenticazione
+3. Hardening Kernel
+4. Hardening Rete
+5. Hardening Filesystem
+6. Hardening Servizi
+7. Hardening DNS
+8. Esegui TUTTO (modalità completa)
+0. Esci
+
+## 🔧 Configurazione
+I file di configurazione predefiniti si trovano in /configs:
+
+```bash
+sysctl_secure.conf: Parametri kernel sicuri
+sshd_secure.conf: Configurazione SSH hardened
+login_banner.txt: Banner legale per accessi
+
+## ✅ Verifica
+Dopo l'esecuzione, verifica le modifiche con:
+
+```bash
+# Verifica politica password
+grep pam_pwquality /etc/pam.d/common-password
+
+# Verifica parametri kernel
+sysctl -a | grep randomize_va_space
+
+# Verifica servizi attivi
+systemctl list-units --state=enabled
