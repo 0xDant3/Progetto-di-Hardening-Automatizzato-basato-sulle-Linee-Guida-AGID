@@ -1,0 +1,7 @@
+ATTENZIONE: Accesso Consentito Solo ad Utenti Autorizzati
+
+Questo sistema è di proprietà di [Organizzazione]. Tutte le attività su questo 
+sistema sono monitorate e registrate. L'accesso non autorizzato è vietato e 
+sarà perseguito a norma di legge (Art. 615-ter c.p.).
+
+Connessione effettuata: %d/%m/%Y %H:%M:%S
