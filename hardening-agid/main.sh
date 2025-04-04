@@ -58,7 +58,7 @@ run_script() {
     echo "🛡️  Esecuzione: $module"
     if [ -f "$script" ]; then
         chmod +x "$script"
-        "$script"
+        sudo "$script"
         log "Hardening $module completato"
     else
         echo "❌ Script non trovato: $script"
