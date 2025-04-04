@@ -24,7 +24,7 @@ Set di script modulari per l'implementazione automatica delle misure di hardenin
 ## 🚀 Installazione
 
 ```bash
-git clone https://github.com/tuorepo/hardening-agid.git
+git clone [https://github.com/0xDant3/Progetto-di-Hardening-Automatizzato-basato-sulle-Linee-Guida-AGID]
 cd hardening-agid
 chmod +x main.sh
 ```
