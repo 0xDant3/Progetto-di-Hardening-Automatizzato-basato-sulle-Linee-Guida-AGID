@@ -1,6 +1,6 @@
 #!/bin/bash
-source ../utils/checks.sh
-source ../utils/logging.sh
+source Progetto-di-Hardening-Automatizzato-basato-sulle-Linee-Guida-AGID/edit/main/hardening-agid/scripts/utils/checks.sh
+source Progetto-di-Hardening-Automatizzato-basato-sulle-Linee-Guida-AGID/edit/main/hardening-agid/scripts/utils/logging.sh
 
 log "Inizio hardening DNS"
 
