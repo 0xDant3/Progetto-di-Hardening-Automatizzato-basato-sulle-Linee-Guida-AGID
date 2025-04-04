@@ -45,7 +45,7 @@ Menu interattivo:
 5. Hardening Filesystem
 6. Hardening Servizi
 7. Hardening DNS
-8. Esegui TUTTO (modalità completa)
+8. Configurazione Audit
 0. Esci
 ```
 
